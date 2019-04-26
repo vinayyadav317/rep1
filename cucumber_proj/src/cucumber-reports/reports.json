@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T10:41:40.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6161744500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "casestudy1_stepdef.before()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "adding product",
+        "description": "",
+        "id": "casestudy1-addproduct;adding-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445699600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user logs in",
+            "match": {
+              "location": "casestudy1_stepdef.user_logs_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691942900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "complete adding catagory",
+            "match": {
+              "location": "casestudy1_stepdef.complete_adding_catagory()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 754454200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "complete adding subcatogry",
+            "match": {
+              "location": "casestudy1_stepdef.complete_adding_subcatogry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1452304400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "complete adding product",
+            "match": {
+              "location": "casestudy1_stepdef.complete_adding_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 725990500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if product is added",
+            "match": {
+              "location": "casestudy1_stepdef.check_if_product_is_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "casestudy1 addproduct",
+    "description": "",
+    "id": "casestudy1-addproduct",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/casestudy1.feature",
+    "tags": []
+  }
+]
